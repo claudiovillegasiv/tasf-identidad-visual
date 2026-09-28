@@ -38,3 +38,9 @@ body,
   background-position: right center !important;
   z-index: 10 !important;
 }
+
+/* Ocultar seccion Scalar webMVC controller de la interfaz grafica */
+[data-slug*="scalar-web-mvc-controller"],
+a[href*="scalar-web-mvc-controller"] {
+  display: none !important;
+}
