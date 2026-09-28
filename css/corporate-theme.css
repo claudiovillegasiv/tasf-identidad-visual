@@ -39,8 +39,17 @@ body,
   z-index: 10 !important;
 }
 
-/* Ocultar seccion Scalar webMVC controller de la interfaz grafica */
+/* === OCULTAR COMPLETAMENTE SCALAR WEB-MVC CONTROLLER === */
+
+/* 1. Ocultar de la barra lateral */
 [data-slug*="scalar-web-mvc-controller"],
 a[href*="scalar-web-mvc-controller"] {
+  display: none !important;
+}
+
+/* 2. Ocultar del cuerpo principal y de la vista de operaciones */
+section:has([id*="scalar-web-mvc-controller"]),
+div[id*="scalar-web-mvc-controller"],
+[data-section*="scalar-web-mvc-controller"] {
   display: none !important;
 }
