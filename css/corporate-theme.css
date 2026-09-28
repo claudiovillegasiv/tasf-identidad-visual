@@ -32,7 +32,7 @@ body,
   right: 20px !important;                    /* Distancia desde el borde derecho */
   width: 80% !important;                     /* Ancho del contenedor del logo */
   height: 100px !important;                  /* Alto del contenedor del logo */
-  background-image: url('/images/logo_ocun.png') !important;
+  background-image: url('https://claudiovillegasiv.github.io/tasf-identidad-visual/images/logoClienteMaxCaudex.png') !important;
   background-size: contain !important;
   background-repeat: no-repeat !important;
   background-position: right center !important;
