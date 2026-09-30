@@ -53,28 +53,3 @@ div[id*="scalar-web-mvc-controller"],
 [data-section*="scalar-web-mvc-controller"] {
   display: none !important;
 }
-
-/* === REFUERZO: MODO OSCURO, TOGGLE Y AGENTE === */
-
-/* 1. Forzar contenedor en modo oscuro (Tema Mars) */
-.scalar-app, 
-.scalar-wrapper {
-  color-scheme: dark !important;
-}
-
-/* 2. Ocultar botón de cambio de modo oscuro (Respaldo a hideDarkModeToggle) */
-button.dark-mode-toggle,
-[aria-label*="Toggle Dark Mode"],
-[aria-label*="modo oscuro"],
-.scalar-dark-mode-toggle {
-  display: none !important;
-}
-
-/* 3. Ocultar completamente cualquier rastro visual del Agente/IA de Scalar */
-.scalar-agent,
-[data-test-id*="agent"],
-div:has(> button[aria-label*="Agent"]),
-button[aria-label*="AI"],
-.scalar-ai-button {
-  display: none !important;
-}
